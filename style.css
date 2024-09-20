@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#aumentar, #diminuir {
+    padding: 1rem;
+    width: 7rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#aumentar {
+    background: #21225f;
+    color: rgb(250, 210, 160);
+}
+
+#diminuir {
+    background: rgb(250, 210, 160);
+    color: #21225f;
+}
