@@ -4,8 +4,17 @@
 }
 
 body {
-    text-align: center;
-    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#botoes {
+    background: #9091b6;
+    padding: 3rem;
+    border-radius: 25px;
 }
 
 #aumentar, #diminuir {
